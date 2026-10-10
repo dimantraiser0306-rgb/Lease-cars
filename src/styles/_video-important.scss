@@ -1,0 +1,42 @@
+.video{
+    padding-bottom: 150px;
+}
+
+.video__title{
+    margin-bottom: 20;
+}
+.vide__text{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.vide__content{
+    margin: 0 auto;
+    display: block;
+    border-radius: 20px;
+}
+
+.important{
+    padding-bottom: 150px;
+
+}
+
+.important__title{
+    margin-bottom: 20px;
+}
+
+.important__text{
+    max-width: 580px;
+    margin: 0 auto 50px;
+}
+
+.important__list{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+}
+
+.important__item-img{
+    padding-bottom: 20px;
+}

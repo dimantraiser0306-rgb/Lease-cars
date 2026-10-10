@@ -1,0 +1,42 @@
+@use "@fontsource/inter"; 
+
+@use './styles/variables';
+@use './styles/reset';
+@use './styles/header';
+@use './styles/footer';
+@use './styles/main';
+@use './styles/why-lease';
+@use './styles/how-does';
+@use './styles/video-important';
+@use './styles/contacts';
+@use './styles/_new-cars.scss';
+
+
+body{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.wrapper{
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.main{
+    flex-grow: 1;    
+}
+
+.container{
+    max-width: 1220px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.section__title{
+    margin-bottom: 60px;
+    font-style: 48px;
+    font-weight: 700;
+    text-align: center;
+}

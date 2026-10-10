@@ -1,0 +1,29 @@
+.header{
+    background-color: var(--main-color);
+}
+.header__main{
+    z-index: 6;
+    background-color: transparent;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+.header__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    padding-top: 40px;
+    padding-bottom: 45px;
+}
+.menu__list{
+    display: flex;
+    gap: clamp(20px, 2.5vw, 35px);
+}
+.menu__list-link{
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.menu__list-link--active{
+    color: var(--second-color);
+}
