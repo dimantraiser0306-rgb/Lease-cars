@@ -6,6 +6,7 @@
 .footer__menu {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 .footer__menu-list{
     display: flex;
