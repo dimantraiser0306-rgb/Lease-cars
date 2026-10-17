@@ -28,8 +28,6 @@
     color: var(--second-color);
 }
 
-
-
 .burger__btn{
     display: flex;
     flex-direction: column;
@@ -40,6 +38,7 @@
     top: 20px;
     right: 20px;
     z-index: 10;
+    visibility: hidden;
 }
 
 .burger__btn-item{
@@ -51,6 +50,12 @@
 .menu__list-show{
     opacity: 1 !important;
     transform: translateY(0) !important;
+}
+
+@media(max-width: 1000px){
+    .burger__btn{
+        visibility: visible;
+    }
 }
 
 @media (max-width: 730px){
